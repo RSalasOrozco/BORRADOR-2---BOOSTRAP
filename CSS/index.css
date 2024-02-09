@@ -1,0 +1,38 @@
+header{
+    color: rgb(238, 245, 251);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.carousel-item{
+    max-height: 39rem;
+}
+
+h5 {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.parrafo-img{
+    font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width:768px){ 
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}

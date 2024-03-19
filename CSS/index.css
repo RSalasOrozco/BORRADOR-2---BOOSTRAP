@@ -4,14 +4,17 @@ header{
 body {
     min-height: 100vh;
 }
-footer{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: #fff;
+.footer_section {
+    padding: 15px;
+    font-weight: 500;
+  }
+  
+  .footer_section p {
+    color: #ffffff;
+    margin: 0;
     text-align: center;
-}
-
+  }
+  
 .carousel-item{
     max-height: 39rem;
 }
